@@ -13,8 +13,6 @@ public class Colors {
                 if (strings[i].contains(color[i])) {
                     System.out.println(strings[i]);
                     myList.add(strings[i]);
-                } else {
-                    return myList;
                 }
             }
         }
